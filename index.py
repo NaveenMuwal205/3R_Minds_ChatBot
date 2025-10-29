@@ -10,7 +10,7 @@ import json
 
 # Page configuration
 st.set_page_config(
-    page_title="Modern ChatBot",
+    page_title="3rMinds ChatBot",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -120,7 +120,7 @@ class ChatUI:
             # Bot information
             st.subheader("ℹ️ About")
             st.markdown("""
-            **Modern ChatBot Features:**
+            **ChatBot Features:**
             - 🤖 AI-powered responses
             - 💬 Real-time chatting
             - 💾 Conversation saving
@@ -130,8 +130,8 @@ class ChatUI:
 
     def _setup_main_chat_area(self):
         """Setup the main chat interface"""
-        st.title("💬 Modern ChatBot")
-        st.markdown("Welcome to your modern chatbot assistant! Start typing below to begin.")
+        st.title("💬 3rMinds ChatBot")
+        st.markdown("Welcome to your 3rMinds chatbot assistant! Start typing below to begin.")
 
         # Display chat messages
         self._display_chat_messages()
